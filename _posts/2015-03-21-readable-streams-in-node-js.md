@@ -12,7 +12,7 @@ After spending some time with the [Node.js source](https://github.com/joyent/nod
 
 Assume we’ve created a readable stream in the following way:
 
-```js
+~~~ js
 var stream = require(‘stream’);
 
 function MyReadable () {
@@ -32,7 +32,7 @@ var rs = new MyReadable();
 
 var firstRead = rs.read();
 var secondRead = rs.read();
-```
+~~~
 
 The first call to `rs.read()` will trigger a call to `rs._read()`, which will in turn call `rs.push()`, which will place the argument passed to `rs.push()` into an internal buffer, which is just a simple Array. Once `rs.push()` places in the information in the internal buffer, it will cause `rs` to emit the `readable` event.
 
@@ -43,7 +43,7 @@ At the end of this program, `firstRead ` will equal 1 and `secondRead` will equa
 ## What if rs.\_read() is asynchronous?
 Now consider the situation where `_read()` is written to be an asynchronous function:
 
-```js
+~~~ js
 MyReadable.prototype._read = function (size) {
 	// This is an asynchronous function
 	
@@ -51,7 +51,7 @@ MyReadable.prototype._read = function (size) {
 		this.push((this._counter++).toString());
     }, 1000);
 };
-```
+~~~
 
 The first call to `rs.read()` will trigger a call to `rs._read()`, which will set a timeout and immediately return without pushing anything. 
 
@@ -77,7 +77,7 @@ When might this happen? A lot of times, you will write readable streams to wrap 
 
 But let's take a simpler example, for our purposes. Assume our program from before is the same, except the `_read` function is written in the following way:
 
-```js
+~~~ js
 MyReadable.prototype._read = function (size) {
     // Note that this is an interval, not a timeout.
     // It will fire the callback every second.
@@ -88,7 +88,7 @@ MyReadable.prototype._read = function (size) {
     	}, 1000);
     }
 };
-```
+~~~
 
 This pushes data into the internal buffer every second, taking care not to set multiple timers when `read()` is called more than once. 
 
@@ -104,7 +104,7 @@ This second point, however, is not much help if nothing is calling `read()` to d
 
 Here is how our example `_read()` function could be re-written:
 
-```js
+~~~ js
 MyReadable.prototype._read = function (size) {
     // Note that this is an interval, not a timeout.
     // It will fire the callback every second.
@@ -118,7 +118,7 @@ MyReadable.prototype._read = function (size) {
     	}, 1000);
     }
 };
-```
+~~~
 
 This would do the trick of shutting off the "source" data, which, in this case, is just an interval. The "source" data would turn back on the next time `rs._read()` is called, and, as mentioned above, this won't happen when the internal buffer has reached the `highWaterMark`.
 
@@ -132,12 +132,12 @@ But imagine if you did not use `pipe`. When in your program would you call `read
 
 You would probably write something like this:
 
-```js
+~~~ js
 rs.on('readable', function() {
 	var data = rs.read();
     console.log(data.toString());
 });
-```
+~~~
 
 This would output to the console the streamed data as it came in.
 
@@ -153,9 +153,9 @@ One thing to be aware of is that `readable` is only emitted when data is pushed 
 
 As mentioned previously, `pipe()` is a common way streams are used. You'll commonly see something like:
 
-```js
+~~~ js
 readable.pipe(writable);
-```
+~~~
 The bad news is that most of what we've discussed so far is of limited usefulness when it comes to `pipe()`, which uses the "flow" mode of streams that resembles the original streams API of Node. 
 
 A fulsome discussion of "flow" mode is outside the scope of this article, but in short, `pipe()` does not make individual calls `read()`, but rather listens for the `data` event and feeds that data into a writable stream, pausing the readable stream when it detects backpressure from the writeable stream. 
@@ -169,6 +169,6 @@ Finally, one additional consideration when planning for the use of `pipe()` with
 Armed with this knowledge, a read through the [Node streams API documentation](https://nodejs.org/api/stream.html) as well as the publicly available [stream handbook](https://github.com/substack/stream-handbook) could be more useful. And, if you are feeling adventurous, the [Node source code](https://github.com/joyent/node) implementing readable streams is well-commented. 
 
 ## Footnotes
-[^1]: This is not strictly true, but I'm presenting it this way for pedagogical reasons. The truth is that the program won't actually end -- it will keep running in perpetuity. The reason is that if push() detects that nothing is causing read() to continue to be called, it will call read(0) before returning. read(0) will not return any data, but it will trigger another call to \_read(), which will, in this example, register another one second timeout. One second later, the callback to the timeout will fire, and this cycle will start again.
-[^2]: Calculating how many hours the program will take to reach the highWaterMark is left as an exercise for the reader.
-[^3]: If read() is called with arguments (e.g., rs.read(5)), it will attempt to read and return only a fixed amount of data from the internal buffer. A look at how this process works is outside the scope of this discussion.
+[^1]: This is not strictly true, but I'm presenting it this way for pedagogical reasons. The truth is that the program won't actually end -- it will keep running in perpetuity. The reason is that if `push()` detects that nothing is causing read() to continue to be called, it will call `read(0)` before returning. `read(0)` will not return any data, but it will trigger another call to `_read()`, which will, in this example, register another one second timeout. One second later, the callback to the timeout will fire, and this cycle will start again.
+[^2]: Calculating how many hours the program will take to reach the `highWaterMark` is left as an exercise for the reader.
+[^3]: If `read()` is called with arguments (e.g., `rs.read(5)`), it will attempt to read and return only a fixed amount of data from the internal buffer. A look at how this process works is outside the scope of this discussion.
