@@ -1,5 +1,6 @@
 ---
-title: 'Taxation of Cryptocurrency Trades: A Primer'
+title: 'Taxation of Cryptocurrency Trades'
+subtitle: 'A Primer'
 date: 2018-04-04T12:00:00-07:00
 layout: post
 tags: ["bitcoin", "litecoin", "taxes", "cryptocurrency", "coinbase"]
