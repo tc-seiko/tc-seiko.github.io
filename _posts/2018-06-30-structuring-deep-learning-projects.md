@@ -44,11 +44,11 @@ If I'm doing computer vision, the best place to start is one of the proven archi
 The most important hyperparameter in fitting the training set is the learning rate ($$\alpha$$). I don't bother with trial-and-error and instead use a [learning rate finder](https://towardsdatascience.com/estimating-optimal-learning-rate-for-a-deep-neural-network-ce32f2556ce0) that I adapted from the [fastai](https://github.com/fastai/fastai) library. The learning rate finder outputs a plot that looks like this: 
 ![Learning rate finder plot](/img/lr_finder.png){:style="margin: 0 auto; display: block"}
 
-I choose a learning rate where the loss is still clearly decreasing. I tend to pick a point that a little bit to the right of the steepest point in the plot, i.e., where the loss is still strongly decreasing and has not yet been minimized. In the above plot, I would choose a learning rate of $$10^{-4}$$.
+I choose a learning rate where the loss is still clearly decreasing. I tend to pick a point that is a little bit to the right of the steepest point in the plot, i.e., where the loss is still strongly decreasing and has not yet been minimized. In the above plot, I would choose a learning rate of $$10^{-4}$$.
 
 If the model is training very slowly or not very well, I replace the initial [stochasic gradient descent](http://ruder.io/optimizing-gradient-descent/index.html#stochasticgradientdescent) optimization algorithm with [Adam optimization](http://ruder.io/optimizing-gradient-descent/index.html#adam). 
 
-If the model still isn't properly fitting the training set, I'll add learning rate decay.[^1] Learning rate decay has been reported to have been tried a few different ways: exponential decay, discrete "staircase" decay, and even manual approaches where the experimenter will visually observe when the loss stops decreasing and reduces $$\alpha$$ accordingly.
+If the model still isn't properly fitting the training set, I'll add learning rate decay.[^1] Learning rate decay is reported to have been tried a few different ways: exponential decay, discrete "staircase" decay, and even manual approaches where the experimenter will visually observe when the loss stops decreasing and reduces $$\alpha$$ accordingly.
 
 I prefer to use a cosine-shaped learning rate decay, which decays $$\alpha$$ over the course of an epoch[^2] in the shape of a cosine curve. This makes the rate of decay slowest at the beginning and end of the epoch and highest in the middle of the epoch.
 
@@ -111,21 +111,21 @@ $$
 x := \frac{x}{\sigma^2}
 $$
 
-I want to reiterate that I normalize the mean and standard deviation over the *training set*, not over the features. It seems obvious now, but that detail tripped me up initially.
+I want to reiterate that I normalize the mean and standard deviation for each feature over the *training set*, not over the features for each sample in the training set. It seems obvious now, but that detail tripped me up initially.
 
 Another important detail is that I keep track of the mean and standard deviation of the inputs from my training set and use those statistics to normalize the validation and test sets. In other words, I don't calculate a mean and standard deviation over the validation set or test set data. Rather, I use the scaling factors from the training set to scale my validation and test sets. 
 
 #### Batch Normalization
 [Batch normalization](https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c) is becoming an increasingly standard part of any deep neural network. Whereas the previous technique normalized the input features, the batch norm technique reduces overfitting by normalizing the mean and variances of the *hidden layer activations*. 
 
-Batch norm is done per-minibatch. Like the input feature normalization, I use the mean and variances from the training set to apply batch norm to the validation and test sets. But unlikely input feature normalization, batch norm is done per-minibatch and not over the whole training set, so I actually use an exponentially weighted average of the mean and variances from the training set.
+Batch norm is done per-minibatch. Like the input feature normalization, I use the mean and variances from the training set to apply batch norm to the validation and test sets. But unlike input feature normalization, batch norm is done per-minibatch and not over the whole training set, so I actually use an exponentially weighted average of the mean and variances from the training set.
 
-That can be a little mind-bending, so I'll say it another way. In batch norm, the mean and variance is taken on an activation-by-activation basis over the data in the minibatch. Since that will yield as many means and variances as there are minibatches, I then apply an exponentially weighted moving average across the minibatches to obtain a final mean and variance to apply to my validation and test sets.
+That can be a little mind-bending, so I'll say it another way. In batch norm, the mean and variance is taken on an activation-by-activation basis over the training samples in the minibatch. Since that will yield as many means and variances as there are minibatches, I then apply an exponentially weighted moving average across the minibatches to obtain a final mean and variance to apply to my validation and test sets.
 
 #### More Training Data & Data Augmentation
-In my experience, overfitting is probably best solved by adding more data to the training set and continuing to train the network. This can be expensive and time-consuming, which is why it's not at the top of my list. 
+In my experience, overfitting is probably best solved by adding more data to the training set and continuing to train the network. Collecting more data can be expensive and time-consuming, which is why it's not at the top of my list. 
 
-Another approach is to use data augmentation. Data augmentation is the process of synthesizing data to increase the data available to train the network. It is an excellent option in computer vision problems and can be done by adjusting the lighting, rotation, orientation, or other visual characteristics of the image. In this way, for every image, you could get five or more images from it by transforming it in subtle ways. After all, if you're trying to build a network that can detect cars on the road, whether that car is oriented left or right, and whether it is sunny or rainy, there is still a car in the photo. 
+Another approach is to use data augmentation. Data augmentation is the process of synthesizing data to increase the data available to train the network. It is an excellent option in computer vision problems where it can be done by adjusting the lighting, rotation, orientation, or other visual characteristics of the image. In this way, for every image, you could get five or more images from it by transforming it in subtle ways. After all, if you're trying to build a network that can detect cars on the road, whether that car is oriented left or right, and whether it is sunny or rainy, there is still a car in the photo. 
 
 Data augmention as applied to structured data or natural language processing has not really been studied.[^5]
 
@@ -147,23 +147,25 @@ If I'm training a recurrent neural network for something like language processin
 Finally, a couple of notes about exploding gradients specifically. If I start to see `NaN` appear in my gradients, it's likely that I have an exploding gradient problem. A blunt but effective way of dealing with exploding gradients is to use gradient clipping. Gradient clipping sets an upper bound on the gradients. If the gradient exceeds a certain threshold, it is "clipped" to the threshold value. 
 
 #### Neural Network Architecture Search
-If I have persistent overfitting, I'll also take a hard look at the architecture of the neural network. Too many features in the input can cause the network to fit noise in the training set. Too many activations in the hidden layers can do the same thing. So I will play around with the number of neurons in the hidden layers, perhaps reducing them in one hidden layer but increasing them in another hidden layer. Or I will increase or reduce the number of hidden layers themselves. 
+Sometimes, the tuning of these hyperparameters does not seem to make much of a difference. No matter how we tune them, the training set loss is still acceptably low, but the validation set loss is much higher. It therefore often makes sense to take a hard look at the architecture of the neural network. Too many features in the input can cause the network to fit noise in the training set. Too many activations in the hidden layers can do the same thing. So I tinker with the number of neurons in the hidden layers, perhaps reducing them in one hidden layer but increasing them in another hidden layer. Or I will increase or reduce the number of hidden layers themselves. 
+
+This technique, like most of the techniques in reducing overfitting, is a lot of trial-and-error. I often need to experiment with many different architectures until I find one that works well.
 
 ## Step 5. Verify Performance on a Test Set
 If the neural network performs well on the training and validation sets, I'm feeling pretty good about it. The main risk at this point is that, in the process of optimizing the network and tuning the hyperparameters, I've accidentally overfit my validation set. 
 
-When I fit the validation set to the cost function in Step 4, I looked to the loss, F-score or some other optimizing metric with respect to the validation set. In essence, I tuned the hyperparameters specifically optimizing on the validation set. In that way, I may have fit to noise in the validation set, and the network may generalize poorly to data it has not yet seen.
+When I fit the validation set to the cost function in Step 4, I looked to the loss, F-score or some other optimizing metric with respect to the validation set. In essence, I tuned the hyperparameters specifically optimizing on the validation set. In that way, I may have fit the hyperparameters (and therefore the neural network) to noise in the validation set, and the network may generalize poorly to data it has not yet seen.
 
 So, in this step, I run the network on an as-yet-unseen test set to confirm the same results I saw in the validation set. If the network performs poorly on a test set, I increase the size of the validation set, either by additional data or by data augmentation. I then repeat Step 4 and fit the larger validation before coming back to this Step 5 to verify its performance on a test set.
 
-Don't tune your network's hyperparameters with respect to the test set! If you do, you'll end up with a network overfit on your test set and you won't realize it.
+Don't tune your network's hyperparameters with respect to the test set loss! If you do, you'll end up with a network overfit on your training set, validation set *and* test set and you won't realize it.
 
 ## Step 6. Verify Performance in the Real World
 Now the fun part! Make sure the network performs well in the real world. If you've trained a cat classifer, start feeding the network pictures of your cat. If you've trained a recurrent neural network sentiment classifer for corporate press releases, feed it Microsoft's latest press releases and see how it does. 
 
 If the network performs poorly in the real world, but performs well on the training, validation and test sets, something is wrong. You may have overfit to your test set somehow. Change your validation and test sets and see if the network still performs well on those. If it does, and it still has issues performing in the real world, it may be time to re-evaluate the cost function you are using (or your overall objective). 
 
-I have not encountered this situation -- generally, if I make it to Step 6, the network does not have issues in the real world. 
+To be honest, I have not encountered this situation. In my experience, if I successfully make it to this Step 6, the network does not have issues in the real world. 
 
 ## Summary Checklist
 Below is a short, checklist summary of the things to do or look out for in each step. 
@@ -202,7 +204,7 @@ Below is a short, checklist summary of the things to do or look out for in each 
   * If issues, change validation and test sets and go back to step 4. 
   
 ## Acknowledgements
-This post is inspired by the [deeplearning.ai](https://deeplearning.ai) coursera specialization as well as the [Practical Deep Learning for Coders](https://course.fast.ai/) course. Many thanks to Andrew Ng and Jeremy Howard for their hard work as educators.
+This post is inspired by my experiences in the [deeplearning.ai](https://deeplearning.ai) Coursera specialization as well as the [Practical Deep Learning for Coders](https://course.fast.ai/) course. Many thanks to Andrew Ng and Jeremy Howard for their hard work as educators.
 
 ## Footnotes
 [^1]: This learning rate decay is in addition to the effective decay that is part of the Adam optimizer.
