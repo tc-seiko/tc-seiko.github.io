@@ -9,9 +9,7 @@ share-img: https://khanna.cc/img/nn.png
 ---
 You want to train a deep neural network. You have the data. It's labeled and wrangled into a useful format. What do you do now? 
 
-This post assumes you have some experience with machine learning but don't know how to approach a deep learning problem. This post overviews the methodical approach I take once I'm done with all the data-wrangling (which is usually the most time-consuming part).
-
-Once I'm finally ready to roll up my sleeves and train a deep neural network, I follow these six steps in order. 
+When I have a deep learning project, I follow these six steps. 
 
 **Step 1**. Pick a cost function.  
 **Step 2**. Pick an initial network architecture.  
