@@ -114,6 +114,7 @@ If you have filed your tax return for 2017 or a prior year and did not properly 
 
 In a future blog post, we'll examine how blockchain fees and Coinbase fees impact the tax landscape. We'll also look at how to treat coins for which you've lost the private key, coins which have been stolen, and coins that you spend on goods and services.
 
+## Footnotes
 [^1]: If your recordkeeping was less than stellar, Coinbase should have the ability to produce a report of your trades for you.
 [^2]: There is a third approach called "average cost" where you do not identify specific assets that you are selling; rather you average the basis of your assets at the time of the sale. If you use this approach you are locked into it for future years. It is not yet clear that the IRS allows this approach to be used for cryptocurrencies. 
 [^3]: The theory behind this was that a trade of, say, bitcoin into litecoin is a "like-kind exchange" under the tax code, and you do not recognize taxable gain at the time of the trade. Instead, you would now own the litecoin with a basis equal to the basis you had in your former bitcoin: the basis would "carry over". When you ultimately sold your litecoin back into dollars, you would use that carried-over basis to calculate your gain. 
