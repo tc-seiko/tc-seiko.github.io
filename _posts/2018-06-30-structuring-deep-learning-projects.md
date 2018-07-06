@@ -6,6 +6,7 @@ date: 2018-06-30T13:20:00-05:00
 tags: [deeplearning, machinelearning, neuralnetworks, python, pytorch, datascience, fastai]
 image: /img/nn.png
 share-img: https://khanna.cc/img/nn.png
+ext-js: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 ---
 You want to train a deep neural network. You have the data. It's labeled and wrangled into a useful format. What do you do now? 
 
