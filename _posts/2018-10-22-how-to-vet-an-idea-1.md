@@ -3,6 +3,8 @@ title: 'How to Vet an Idea (1/5)'
 subtitle: 'Step 1: Identify Your Customer'
 date: 2018-10-22T13:36:00-04:00
 layout: post
+image: /img/lightbulb1.png
+share-img: https://khanna.cc/img/lightbulb1.png
 tags: ["business", "customer", "customer-development", "product", "how-to-vet-an-idea"]
 ---
 
@@ -15,15 +17,19 @@ There are a wealth of resources on the internet on how to do customer developmen
 My idea vetting process centers around a set of five core steps:[^3]
 
 **Step 1.** Identify your customer  
-**Step 2.** Decide what to ask your customer  
+**Step 2.** [Decide what to ask your customer](../how-to-vet-an-idea-2)  
 **Step 3.** Reach your customer  
 **Step 4.** Talk to your customer  
 **Step 5.** Make sense of your customer  
 
+The idea can fail at any one of these steps of the vetting process. For example, an idea could fail at **Step 1** if I could not identify who the potential customer would be. Or it could fail at **Step 3** if I can't actually reach any of these potential customers to talk to about the idea. 
+
+If an idea fails the vetting process, that's a good thing! It means I can confidently drop the idea without investing time into building something no one will use or pay for.
+
 Here's an idea of mine that we'll vet with this process:
 >  Fully online, text-based entity incorporation and corporate minutebook. No Microsoft Word documents, no wet signatures, no PDFs, no Dropbox. Incorporate and maintain all of your corporate board minutes and stock documents without ever leaving your browser.
 
-Before we jump into identifying the customer, there is one important takeaway to put front-and-center. It's a theme we'll see throughout all five steps: Remember to start small. Your product should not try to do everything or satisfy every possible customer. If you try to to everything you'll end up doing nothing. A quote from The Mom Test sums it up:
+Before we jump into identifying the customer, there is one important takeaway to put front-and-center. It's a theme we'll see throughout all five steps: Remember to start small. Your product should not try to do everything or satisfy every possible customer. If you try to do everything, you'll end up doing nothing. A quote from The Mom Test sums it up:
 
 > Startups don't starve, they drown. There are never too few options, too few leads or too few ideas. You always have too many. You get overwhelmed, do a little bit of everything.
 
@@ -122,7 +128,7 @@ So, I think I know where to find these "bootstrapped founders of technology comp
 
 This is a pretty good *who-where* pair. In other words, we have a concrete guess at our initial customer segment. 
 
-What do we want to learn from them? We'll explore that in Part 2.
+[What do we want to learn from them?](../how-to-vet-an-idea-2)
 
 ## Footnotes
 [^1]: If there's one thing I learned in law school, it's that the best way for me to learn something completely new is to read the same thing from two or more different sources and synthesize what I learned into my own writings. In other words, this series of blog posts is more for me than it is for you!
