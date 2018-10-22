@@ -1,5 +1,5 @@
 ---
-title: 'How to Vet a Business Idea (1/5)'
+title: 'How to Vet an Idea (1/5)'
 subtitle: 'Step 1: Identify Your Customer'
 date: 2018-10-22T13:36:00-04:00
 layout: post
