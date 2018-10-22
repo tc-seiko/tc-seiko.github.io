@@ -3,7 +3,7 @@ title: 'How to Vet an Idea (1/5)'
 subtitle: 'Step 1: Identify Your Customer'
 date: 2018-10-22T13:36:00-04:00
 layout: post
-tags: ["business", "customer", "customer-development", "product", "vetting-your-ideas"]
+tags: ["business", "customer", "customer-development", "product", "how-to-vet-an-idea"]
 ---
 
 I have been collecting ideas for software and hardware projects since I was in college. I built some of them. I sort-of-built and then abandoned many more. I never turned any of them into a business. 
