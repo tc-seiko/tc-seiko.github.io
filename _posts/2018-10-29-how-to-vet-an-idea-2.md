@@ -102,7 +102,7 @@ Now for the big question: **What assumptions do we have that, if proven wrong, w
 
 The three assumptions that would have a large impact on the business and feel highly uncertain have been marked with an asterisk (*). 
 
-So, these are the three big things we initially want to learn from our customers: (1) whether incorporation and corporate recordkeeping actually a frustration; (2) their existing system for managing corporate records; and (3) how much money they spend on incorporation and corporate recordkeeping.
+So, these are the three big things we initially want to learn from our customers: (1) whether incorporation and corporate recordkeeping are actually a frustration for them; (2) their existing system for managing corporate records; and (3) how much money they spend on incorporation and corporate recordkeeping.
 
 Now that we know who are customers are and what we want to learn from them, how do we reach those customers to learn from them? We'll explore that in Part 3.
 
