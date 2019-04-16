@@ -1,11 +1,10 @@
 ---
-title: 'Book Notes: The Mom Test'
-layout: post
-date: 2018-12-26T15:20:00-05:00
-tags: [book-notes, startups, customer-development]
+title: 'The Mom Test'
+note-type: Book Notes
+layout: note
 ---
 
-[The Mom Test](http://momtestbook.com/) is a book on best practices for interviewing potential customers in connection with customer development. This post contains my personal notes from reading the book. 
+[The Mom Test](http://momtestbook.com/), written by Rob Fitzpatrick, is a book on best practices for interviewing potential customers in connection with customer development. This post contains my personal notes from reading the book. 
 
 If you are interested in how to interview customers, I recommend this book. 
 

@@ -17,14 +17,15 @@ baseurl: ""
 title: Harry Khanna
 
 # Short description of your site
-description: law and software, mostly
+description: Attorney & Software Developer
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About: "about"
-  Tags: "tags"
+  Attorney Bio: "attorney"
+  Blog: "blog"
+  Notes: "notes"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -122,6 +123,8 @@ gtag: "UA-61256175-3"
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 # disqus: ""
+# If you want to use just-comments fill with the API Key
+#just-comments: "ABCD-EFGH-IJKL"
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
