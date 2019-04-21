@@ -18,9 +18,21 @@ I read this book to help me improve my relationships with others in my life.
 
 Anything with the symbol <i class="fa fa-road"></i> is an action item for me.
 
-<!-- 
 # Section 1 - The Mind Set
+## Becoming a Member of the Club (1)
+No notes. 
 
+## Don't Keep Score (2)
+- Ask for help! Relationships are like muscles, they strengthen with use. Relationships are not a depleteable resource.
+
+## What's Your Mission? (3)
+- Bill Clinton would write people's names down when he was introduced to them. When asked why, he would say to people, "I'm going into politics and plan to run for governor of Arkansas, so I'm keeping track of everyone I meet". In this way, he was reaching out and including others in his mission, not keeping his ambitions a secret.
+  - Think about Lisa. She does this well and includes people in her mission and ambitions. 
+
+## Build It Before You Need It (4)
+No notes.
+
+<!-- 
 # Section 2 - The Skill Set
 
 # Section 3 - Turning Connections into Compatriots
@@ -59,6 +71,8 @@ Anything with the symbol <i class="fa fa-road"></i> is an action item for me.
 - Develop a niche: think of several areas where your company underperformance and choose to focus on the one area that is least attended to.
   - It looked to me like ICA automation was being neglected at work because we didn't have ATG anymore. It was a niche I thought I could add a lot of value since it felt like an area we were underperforming. 
 - Follow the money: creativity is worthless if it can't be applied. Pick something that will make or save someone money. 
+- The most gripping stories are those concerning identity—who we are, where we’ve come from, and where we’re going. They tap into something common to all people. That doesn’t mean your business, your résumé, or whatever content you’re trying to pitch actually has to be oversimplified or overly universal. But you should figure out how to spin your yarn in a fashion that (a) is simple to understand, and (b) everybody can relate to. Another way to think about this is to ask yourself, “How does my content help others answer who they are, where they are from, and where they are going?
+  - I think this last sentence is a key point and is generally applicable.<i class="fa fa-road"></i> I should be thinking about these questions when I create any sort of content, even emails. Drafting my emails (for example) to these questions will make it more powerful.
 - Use emotion to convince your doubters that underdogs sometimes win and Goliaths sometimes crumble.
 
 <!--
