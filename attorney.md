@@ -14,8 +14,8 @@ Interested in working together? You can get in touch by emailing me at `harry` a
 ----
 
 #### Prior Employment
-- Sullivan & Cromwell LLP
 - Wilson Sonsini Goodrich & Rosati P.C.
+- Sullivan & Cromwell LLP
 - Compass (current employer)
 
 -----

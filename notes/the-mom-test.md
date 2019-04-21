@@ -2,6 +2,7 @@
 title: 'The Mom Test'
 note-type: Book Notes
 layout: note
+head-title: 'The Mom Test by Rob Fitzpatrick (Book Notes)'
 ---
 
 [The Mom Test](http://momtestbook.com/), written by Rob Fitzpatrick, is a book on best practices for interviewing potential customers in connection with customer development. This post contains my personal notes from reading the book. 
