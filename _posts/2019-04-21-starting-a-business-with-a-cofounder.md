@@ -12,7 +12,7 @@ I have seen many good businesses ruined by co-founder misunderstandings about tw
 
 Discuss these two things *before* the business makes money. Make decisions on the important, specific issues raised by this post. 
 
-It's often not be worth the expense to hire or lawyer or form a legal entity when you're just starting out. So write these decisions down in an informal way, like in an email. Just enough detail to set a baseline understanding between you and your co-founder. When the inevitable question comes up months or years later, having a clear idea about what you decided will be crucial to the long-term success of the company.
+It's often not worth the expense to hire a lawyer or form a legal entity when you're just starting out. So write these decisions down in an informal way, like in an email. Just enough detail to set a baseline understanding between you and your co-founder. When the inevitable question comes up months or years later, having a clear idea about what you decided will be crucial to the long-term success of the company.
 
 > This post assumes you only have one other co-founder. If you have more, some of the recommendations will not be applicable.
 
