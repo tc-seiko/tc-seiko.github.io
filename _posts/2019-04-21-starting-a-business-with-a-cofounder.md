@@ -1,28 +1,29 @@
 ---
 title: Starting a Business with a Co-Founder
-subtitle: What to Write Down
+subtitle: Key Decisions to Make Early 
 layout: post
 date: 2019-04-21T18:20:00-04:00
 tags: [law, business, startups]
 ---
 
-You and a partner have decided to go into business together. It's an exciting time! Before things really get going, though, it is important to talk about a few important things in your new relationship and to write them down. 
-
 I have seen many good businesses ruined by co-founder misunderstandings about two key things:
 1. **control** of the business 
 2. the **economics** of the business.
 
-The half-dozen or so decisions contained in those two overarching themes of control and economics is what this post is about. Talk about these decisions with your co-founder. Put them in an email. Write them down somewhere. 
+Discuss these two things *before* the business makes money. Make decisions on the important, specific issues raised by this post. 
 
-This post assumes that when the company is profitable, some portion of those profits will be distributed to the founders rather than reinvested in growth. This means that this article won't be helpful to companies that are venture-backed or aspire to be venture-backed. Rather, it is aimed at companies aiming to be profitable and sustainable with minimal outside capital. Think [Indiehackers](https://www.indiehackers.com/), not [Y Combinator](https://www.ycombinator.com).
+It's often not be worth the expense to hire or lawyer or form a legal entity when you're just starting out. So write these decisions down in an informal way, like in an email. Just enough detail to set a baseline understanding between you and your co-founder. When the inevitable question comes up months or years later, having a clear idea about what you decided will be crucial to the long-term success of the company.
+
+> This post assumes you only have one other co-founder. If you have more, some of the recommendations will not be applicable.
+
+> This post also assumes that when the company is profitable, some portion of those profits will be distributed to the founders rather than reinvested in growth. This means that this article won't be helpful to companies that either are, or aspire to be, venture-backed. Rather, it is most helpful for companies with the goal of profitability and sustainability with minimal outside capital. Think [Indiehackers](https://www.indiehackers.com/), not [Y Combinator](https://www.ycombinator.com).
 
 
 ## Control of the Business
-> How will decisions affecting the company be made? 
 
-If there are only two founders, it probably makes sense to require both founders' consent to move forward with any material decision.
+If there are only two founders, you should require the consent of both founders to move forward with any "material" decision.
 
-Examples of decisions that are probably material in any very young company: 
+Examples of decisions that are material for a young company: 
 
 - raising money;
 - distributing money from the company to the founders;
@@ -33,27 +34,25 @@ Examples of decisions that are probably material in any very young company:
 - spending company money above a certain threshold; and
 - decisions on business strategy.
 
-There's probably more, but the concept of **material to the company** gets you pretty far. 
+There may be more for your specific company. 
 
-For non-material decisions, the two co-founders could be empowered to make decisions on their own within their areas of responsibility. 
+For non-material decisions, like taking a client out for a meal or signing up for a cloud service that only requires a monthly commitment, the two co-founders could be empowered to make decisions on their own within their areas of responsibility. 
 
 ## Economics of the Business
 
 Economics can encompass a lot of issues. But there are two critical ones that should be answered upfront. 
 
 1. *Profit Sharing*. When and how are profits split?
-1. *Capital Contributions*. What money is used to start the company?
+1. *Capital Contributions*. What money is used to start the company?  
 
-I address each in turn.
 
 #### Profit Sharing
-> How are the profits split?
 
 A 50%/50% split of profits is not uncommon.[^1] But it should depend on what each founder is bringing to the table in terms of time, effort, expertise and connections. The remaining key questions are *when* do you split and *what* do you split?
 
 ***When***. The question of *when* you split dovetails with the above discussion of control. If the two founders decide to take money out of the company as profit, then they'd split that profit in the percentage they agreed on (e.g., 50%/50%). But they must first decide to distribute the cash out of the company. If they don't, the default is to leave the cash in the company bank account and reinvest it in the business. Make sure you've decided who decides when to take profits out of the company. When there are only two founders, I recommend that both have to consent for money to be taken.
 
-***What***. The question of *what* you split is an inquiry into what "profit" means. In principle, this is just revenue minus expenses. As any accountant knows, however, things are rarely that simple. Someone will need to make a decision about what profit is actually available for distribution. I recommend that either both founders make this decision together, or if you are working with an accountant, have his or her determination be final.
+***What***. The question of *what* you split is an inquiry into what "profit" means. In principle, this is just revenue minus expenses. As accountants know, however, things are rarely that simple. Someone will need to make a decision about what profit is actually available for distribution. I recommend that either both founders make this decision together, or if you are working with an accountant, have his or her determination be final.
 
 What can make this more complex is if one founder is putting more initial capital (cash) into the business upfront than the other founder.
 
@@ -61,7 +60,7 @@ What can make this more complex is if one founder is putting more initial capita
 
 When your company is brand new, it won't be making any money yet. How do you pay expenses?
 
-Before you open a company bank account, a common way for new founders to do this is for one founder to Venmo the other founder for half of the expense. This ad-hoc, 50%/50% split of expenses amounts to both founders contributing equal amounts of cash to the nascent company. And if two founders are contributing equal amounts of cash, either by this ad-hoc Venmo process or by more formally openining a company bank account and putting in equal amounts of cash, there isn't really an issue. You could safely skip the rest of this section. Just write down that both founders are expected to put in in the same amount of capital to get things going and move on. 
+Before you open a company bank account, a common way for new founders to do this is for one founder to Venmo the other founder for half of the expense. This ad-hoc, 50%/50% split of expenses amounts to both founders contributing equal amounts of cash to the nascent company. And if two founders are contributing equal amounts of cash, there isn't really an issue. You could safely skip the rest of this section. Just decide that both founders are expected to put in the same amount of capital to get things going and move on. 
 
 The issue arises if one person is putting in more money than the other. Imagine Founder 1 and Founder 2 are putting in equal amounts of time and effort, but Founder 1 puts in $10,000 to get things started. Founder 2 puts no money in. If Founder 1 and Founder 2 have exactly 50%/50% interest in the company, Founder 1 gets a little screwed, right? Founder 1 puts in more than Founder 2 but gets exactly the same ownership. 
 
@@ -71,7 +70,7 @@ You can address this by giving Founder 1 a little bit more of the company to com
 
 - ***Downside***. If the company shuts down the day after Founder 1 puts in the $10,000, Founder 2 ends up being entitled to $4,000 (40%) of what is really Founder 1's money, even though the company never operated and no business was ever transacted. 
 
-To avoid this problem, the tech startup world has handled this with something called a **liquidation preference**. 
+To avoid this problem, the startup world has handled this with something called a **liquidation preference**. 
 
 ***Liquidation Preference***. A liquidation preference tweaks the profit sharing formula to make sure the founder contributing more capital upfront is compensated for this extra contribution, without giving them a permanent advantage over the other founder. One permutation of such a liquidation preference could be if the company makes any distributions of cash, that cash might be split 100%/0% until Founder 1's initial contribution is totally paid back. Once Founder 1 is paid back their original investment (or a multiple of their original investment), then distributed profits would be split 50%/50%. 
 
@@ -91,18 +90,9 @@ If both founders think they're done with the business, it's easy: just split the
 
 But if only one person wants out, you should decide how you want to handle it.
 
-## Forming an Entity
-
-Eventually, you will form a legal entity[^2] and you will memorialize these decisions in a legally binding agreement. Unless you really know what you are doing, it is important to hire an experienced lawyer at that point. 
-
-When to form the legal entity depends on a few different factors. If the limited liability shield isn't critical to you, either because the business is low-risk or because you don't have any significant personal assets like a house, it could make sense to wait until: 
-
-- when you want to open a bank account for the company; or
-- you're about to book your first significant revenue.
-
-Until the entity is formed, having some of these key decisions written down will give you and your partner peace of mind that there is a framework for the economics and control of the company.
+In summary, decisions on **economics** and **control** are important to make early on in the company's life. When the time is right,[^2] a lawyer can assist with more detailed decision-making and you will form a legal entity. Until then, having made these key decisions will give you and your partner peace of mind that there is a framework for the **economics** and **control** of the company.
 
 
 ## Footnotes
-[^1]: Some people think a 50%/50% split runs the risk of deadlocks if the founders don't agree on a decision. This risk is mostly theoretical since material decisions should require both founders' consent. And non-material decisions in a well-run company are unlikely to put to a formal vote where a 51% founder will force his or her view on the 49% founder. 
-[^2]: The right legal entity to choose will be the subject of another blog post. For a two-person foundership that is not taking on significant outside funding, an LLC is probably a safe bet. 
+[^1]: Some people think a 50%/50% split runs the risk of deadlocks if the founders don't agree on a decision. This risk is mostly theoretical since material decisions should require both founders' consent. And non-material decisions are unlikely to be put to a formal vote where a 51% founder will force his or her view of which coffeemaker to get on the 49% founder. If that's happening, it's time to part ways with your co-founder.
+[^2]: When *is* the time right? The timing of forming a entity will be the subject of another blog post.
