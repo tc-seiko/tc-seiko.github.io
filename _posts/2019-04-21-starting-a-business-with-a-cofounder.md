@@ -1,6 +1,6 @@
 ---
 title: Starting a Business with a Co-Founder
-subtitle: Key Decisions to Make Early 
+subtitle: Economics and Control
 layout: post
 date: 2019-04-21T18:20:00-04:00
 tags: [law, business, startups]
