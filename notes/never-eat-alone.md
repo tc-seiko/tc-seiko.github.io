@@ -32,6 +32,21 @@ No notes.
 ## Build It Before You Need It (4)
 No notes.
 
+## The Genius of Audacity (5)
+- Seize this very minute; what you can do, or dream you can, begin it; boldness has genius power and magic in it. -- Johann Wolfgang von Goethe
+- Audacity is often the only thing that separates two equally talented men and their job titles. 
+- It never hurts to ask.
+- There is kindness in being bold -- people enjoy helping others.
+- Remind yourself that people with a low tolerance for risk, whose behavior is guided by fear, have a low propensity for success.
+- Mustering the boldness to talk with people who don't know me often simply comes down to balancing the fear of embarassment against fear of failure. Either ask, or you won't be successful. 
+- The choice isn't between success and failure; it's been choosing risk and striving for greatness, or risking nothing and being certain of mediocrity. 
+- <i class="fa fa-road"></i> Set a goal of initiating a meeting with one new person a week. It doesn't matter where or with whom. Introduce yourself to someone on the bus. Slide up next to someone at a bar and sa hello. Suggest coffee with someone you're connected to online but whom you've never actually met. Hang out at the company watercooler and force yourself to talk to an employee you're never spoken with. 
+- It gets easier with practice. Best of all, you get comfortable with the idea of rejection.
+
+## The Networking Jerk (6)
+- It's better to spend more time with fewer people at a one-hour get-together and have one or two meaningful dialogues, than engage in the wandering-eye routine and lose the respect of most of the people you meet. 
+- At a conference, when I run into someone I've been dying to meet, I don't hide my enthusiasm. "It's a pleasure to finally meet you. I've admiring your work from afar for quite some time and have been thinking how beneficial it might be if we could meet one another." Coy games might work at a bar, but not when you're looking to establish a deeper, more meaningful connection.
+
 <!-- 
 # Section 2 - The Skill Set
 
@@ -71,7 +86,7 @@ No notes.
 - Develop a niche: think of several areas where your company underperformance and choose to focus on the one area that is least attended to.
   - It looked to me like ICA automation was being neglected at work because we didn't have ATG anymore. It was a niche I thought I could add a lot of value since it felt like an area we were underperforming. 
 - Follow the money: creativity is worthless if it can't be applied. Pick something that will make or save someone money. 
-- The most gripping stories are those concerning identity—who we are, where we’ve come from, and where we’re going. They tap into something common to all people. That doesn’t mean your business, your résumé, or whatever content you’re trying to pitch actually has to be oversimplified or overly universal. But you should figure out how to spin your yarn in a fashion that (a) is simple to understand, and (b) everybody can relate to. Another way to think about this is to ask yourself, “How does my content help others answer who they are, where they are from, and where they are going?
+- The most gripping stories are those concerning identity—who we are, where we’ve come from, and where we’re going. They tap into something common to all people. That doesn’t mean your business, your résumé, or whatever content you’re trying to pitch actually has to be oversimplified or overly universal. But you should figure out how to spin your yarn in a fashion that (a) is simple to understand, and (b) everybody can relate to. Another way to think about this is to ask yourself, “How does my content help others answer who they are, where they are from, and where they are going?"
   - I think this last sentence is a key point and is generally applicable.<i class="fa fa-road"></i> I should be thinking about these questions when I create any sort of content, even emails. Drafting my emails (for example) to these questions will make it more powerful.
 - Use emotion to convince your doubters that underdogs sometimes win and Goliaths sometimes crumble.
 
