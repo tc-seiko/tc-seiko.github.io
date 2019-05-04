@@ -16,7 +16,7 @@ It's often not worth the expense to hire a lawyer or form a legal entity when yo
 
 > This post assumes you only have one other co-founder. If you have more, some of the recommendations will not be applicable.
 
-> This post also assumes that when the company is profitable, some portion of those profits will be distributed to the founders rather than reinvested in growth. This means that this article won't be helpful to companies that either are, or aspire to be, venture-backed. Rather, it is most helpful for companies with the goal of profitability and sustainability with minimal outside capital. Think [Indiehackers](https://www.indiehackers.com/), not [Y Combinator](https://www.ycombinator.com).
+> This post also assumes that when the company is profitable, some portion of those profits will be distributed to the founders rather than reinvested in growth. This means that this article won't be helpful to companies that either are, or aspire to be, venture-backed. Rather, it is most helpful for companies with the goal of profitability and sustainability with minimal outside capital. Think [Nugget](https://nugget.one/) or [Indiehackers](https://www.indiehackers.com/), not [Y Combinator](https://www.ycombinator.com).
 
 
 ## Control of the Business
