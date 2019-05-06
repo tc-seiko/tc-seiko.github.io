@@ -47,9 +47,22 @@ No notes.
 - It's better to spend more time with fewer people at a one-hour get-together and have one or two meaningful dialogues, than engage in the wandering-eye routine and lose the respect of most of the people you meet. 
 - At a conference, when I run into someone I've been dying to meet, I don't hide my enthusiasm. "It's a pleasure to finally meet you. I've admiring your work from afar for quite some time and have been thinking how beneficial it might be if we could meet one another." Coy games might work at a bar, but not when you're looking to establish a deeper, more meaningful connection.
 
-<!-- 
 # Section 2 - The Skill Set
 
+## Do Your Homework (7)
+- Before you meet with new people you want to introduce yourself to, research them and their: business, hobbies, challenges, goals, inside their business and out. 
+- Prepare a one-page synopsis on that person. On that synopsis, include only: what is this person like as a human being, what he or she feels strongly about, and what his or her proudest achievements are.
+- Be up to date on what's happening in their company. Did they have a good quarter or a bad quarter? Does the company have a new product? 
+- Research can be done on Google, LinkedIn, Twitter, and the company PR department.
+- In every conversation, try to transcence the trivial polite chitchat.
+- Get to know what's really on their mind: are their kids hoping to land an internship? Do they have health issues? Cutting strokes off their golf game?
+- Keith researched this one CEO who had ran the NYC marathon. When he ran into the CEO, he said, "You know, I don't know how yo udo it. I like to think I'm in great shape, but the training for a marathon killed me. I had to stop." CEO was pleasantly surprised. Keith didn't shy away from it, saying "I always make a special effort to inquire about the people I'd like to meet."
+- People are flattered when you do this. Instantly they know they're not going to have to suffer strained conversation with someome but rather they are talin gto someone who has made an effort to connect with them and with whom they share an interest.
+
+## Make Lists (8)
+No notes.
+
+<!-- 
 # Section 3 - Turning Connections into Compatriots
 
 # Section 4 - Connecting in the Digital Age
