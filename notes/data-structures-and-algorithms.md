@@ -24,6 +24,33 @@ An array is a foundational data structure consisting of a collection of elements
 - *Worst Case*. Insert an element at the beginning of the array. You will need to scoot all $$N$$ elements down one spot to make room. $$O(N)$$.
 - *Other Worst Case*. Insert an element at the end of the array, but there is no room left in memory. The all $$N$$ elements of the array need to be copied to a new location where memory is available. $$O(N)$$.
 
+##### Amortized Time
+Amortized time is the way to express the time complexity **when an algorithm has the very bad time complexity only once in a while besides the time complexity that happens most of time**. Good example would be an ArrayList which is a data structure that contains an array and can be extended. Another definition is **average time taken per operation, if you do many operations**.
+
+Imagine that you want to insert N items into an initially *empty* array. And every time you want to insert an element until an array that is *already full*, it copies itself over to a new memory location with double the size (i.e., a *resizing factor* of 2). 
+
+1. You insert 1. The empty array finds a new location of size 2, and inserts the 1.
+2. You insert 2. The size-2 array is full, but no copying is needed at this time.
+3. You insert 3. Before the insert, the size-2 array copies itself over to an array of size 4. It has to copy 2 elements over to do this. 
+4. You insert 4. The size-4 array fills up, but no copying is needed at this time.
+5. You insert 5. Before the insert, the size-4 array copies itself over to an array of size 8. It has to copy 4 elements over to do this. And so on.
+
+The insertion step is $$O(1)$$ like normal. But whats the time complexity associated with all the copying steps? It's easier to think about it backwards. When the array reaches size N, the most recent copying step took N / 2 steps. And when the array reached size N / 2, the most recent copying step took N / 4. So the total number of copying steps took:
+
+$$
+N/2 + N/4 + N/8 + \dots + 2 + 1
+$$
+
+If you add up that series, you get N. And if the *total copying* steps took N time, and if there were N inserts, you divide N / N and get $$O(1)$$. So the copying steps, *on average* are $$O(1)$$. 
+
+**What I don't understand**, though, is that it's highly unlikely that an array will be sized exactly to N. Rather, N items in an array will end up in an array of size N + X because the array kept doubling as you inserted $$1 \dots N$$. So the most recent copy was X / 2, which is somewhere between N / 2 and N. In the *worst case*, N is equal to $$\frac{X}{2} + 1$$, which means the the most recent copy was $$N - 1$$. So the total number of copying steps took:
+
+$$
+N - 1 + \frac{N - 1}{2} + \frac{N - 1}{4} + \dots + 2 + 1
+$$
+
+If you add up *this* series, you get $$(N - 1) + (N - 1) = 2N - 2$$. If there are N inserts and you divide $$\frac{2N - 2}{N}$$, you get $$N$$ minus a constant. So, isn't the average time for the copying steps $$O(N)$$ in the worst case, *not* $$O(1)$$?  
+
 #### Search
 - *All Cases*. Go element-by-element until you find what you're looking for. Time complexity depends on where the element is, but because on average this takes $$\frac{N}{2}$$ steps, it is $$O(N)$$ complexity.
 
@@ -128,10 +155,10 @@ A binary tree is a tree that abides by these rules:
 #### Searching
 
 1. Start at the root node.
-1. Inspect the value at the node.
-1. If we've found the value, great.
-1. If the value we're looking for is less than the current node, search for it in the left subtree.
-1. If th evalue we're looking for is greater than the current node, search in the right subtree.
+2. Inspect the value at the node.
+3. If we've found the value, great.
+4. If the value we're looking for is less than the current node, search for it in the left subtree.
+5. If th evalue we're looking for is greater than the current node, search in the right subtree.
 
 *Recursion* is very useful here.
 
@@ -361,3 +388,7 @@ One approach to reading recursive code is:
 2. Walk through the function assuming it's the base case
 3. Then, walk through the function its dealing with the case immediately before the base case.
 4. Progress by moving up the cases on at a time. 
+
+When you have a recursive function that makes multiple calls, the runtime will often (but not always) look like $$O(branches^{depth})$$, where branches is the number of times each recursive call branches.
+
+All recursive functions *can* be implemented iteratively, although they may be much more complex.
