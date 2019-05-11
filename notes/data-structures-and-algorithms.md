@@ -144,13 +144,23 @@ Doubly linked lists are very useful as a data structure for a *queue*, since tho
 ### Binary Trees
 > A node-based data structure
 
-A binary tree is good when we want a data structure that maintains order and also has fast search, insertion and deletion. An ordered array is ordered but is slow on the options. A hash table is fast, but not ordered.
+A *tree* is a node-based data structure that can have links to *multiple* nodes. The uppermost node is the *root* node. And nodes are *parents* and *children*. The root node is the parent node and not a child to any other node.
 
-Generally, a *tree* is a node-based data structure that can have links to *multiple* nodes. The uppermost node is the *root* node. And nodes are *parents* and *children*. The root node is the parent node and not a child to any other node.
+A binary tree is a tree in which each node has up to two children. 
 
-A binary tree is a tree that abides by these rules:
-- Each node has zero, one, or two children. No more than two children.
-- If a node has two children, it must have one child greater than the parent and one child lesser than it.
+A binary *search* tree is a binary tree that fits the specific ordering property of `all left descendents <= n < all right descendents` for all nodes n.
+
+> These definitions aren't fixed, so good to clarify what assumptions hold.
+
+A binary search tree is good when we want a data structure that maintains order and also has fast search, insertion and deletion. An ordered array is ordered but is slow on the options. A hash table is fast, but not ordered.
+
+*Balanced* tree basically just means not terribly unbalanced. It's not a precise term. A balanced binary search tree should be rougly $$O(logN)$$ for it to be balanced.
+
+*Complete* binary tree is one in which every level of the tree is fully filled except maybe the last level, and to the extent that the last level is filled, it is filled left to right.
+
+*Full* binary tree is a tree in which every node has zero or two children (and no nodes have just one child).
+
+*Perfect* binary trees are complete and full binary trees. Additionally, all leaf nodes will be at the same level and this level has the maximum number of nodes.
 
 #### Searching
 
@@ -162,21 +172,21 @@ A binary tree is a tree that abides by these rules:
 
 *Recursion* is very useful here.
 
-Searching takes $$O(logN)$$ time, since you are constantly dividing the tree in half. But this is only best case, when the tree is perfectly-balanced. If it's unbalanced, it turns into $$O(N)$$ since the tree is only one sided and you need to traverse every node in search. Note that the best case is also the average case because *randomly* ordered data inserted into a binary tree ends up close to perfectly balanced.
+Searching takes $$O(logN)$$ time, since you are constantly dividing the tree in half. But this is only best case, when the tree is perfectly-balanced. If it's unbalanced, it turns into $$O(N)$$ since the tree is only one sided and you need to traverse every node in search. Note that the best case is also the average case because *randomly* ordered data inserted into a binary search tree ends up close to perfectly balanced.
 
 So, in a best case / average case scenario, searching is the same as binary search in an ordered array. 
 
 #### Insertion
 
-Here's where binary trees really shine. 
+Here's where binary search trees really shine. 
 1. Find the correct node to attach the new node to. Essentially a search.
 2. Insert at the bottom of the tree.
 
 This takes one extra step beyond a search. So, best case / average case $$O(logN)$$. Worst case would still be $$O(N)$$ I guess.
 
-The key is to *randomize* your data before you insert it into a binary tree. This is because *sorted* data ends up perfectly unbalanced based on this insertion algorithm. But *randomized* data ends up perfectly balanced. 
+The key is to *randomize* your data before you insert it into a binary search tree. This is because *sorted* data ends up perfectly unbalanced based on this insertion algorithm. But *randomized* data ends up perfectly balanced. 
 
-This is what makes binary trees so much better than ordered arrays. Search and insert are both $$O(logN)$$ in the average case, but ordered arrays are $$O(N)$$ for insert.
+This is what makes binary search trees so much better than ordered arrays. Search and insert are both $$O(logN)$$ in the average case, but ordered arrays are $$O(N)$$ for insert.
 
 #### Deletion
 This is more complex.
@@ -200,6 +210,30 @@ Recursion is a great tool for this:
 4. Call itself on the node's right child if it has one.
 
 Tree traversal has to visit every node so it is $$O(N)$$. 
+
+Pre-order traversal visits the current node before its child nodes. The root node is always the first node visited.
+
+Post-order traversal visits the current node after its child nodes. The root node is always the last node visited.
+
+### Binary Heaps
+A min-heap is a complete binary tree (not a binary search tree) where each node is smaller than its children. The root element is therefore the minimum element in the tree.
+
+Max-heaps are just min-heaps where the elements are in descending rather than ascending order.
+
+#### Insert
+1. Insert the element at the bottom, rightmost spot to maintain completeness.
+2. Fix the tree by swapping the new element with its parent until its in the right spot, i.e., bubble up the element.
+   
+This takes $$O(logN)$$
+
+#### Extract Minimum Element
+1. The minumum element is always at the top.
+2. Remove it and swap it with the last element in the heap (the bottommost, rightmost).
+3. Bubble down this element, swapping it with one of its children until the min-heap property is restored.
+4. Do you swap it with the left child or right child? Since there's no inherent ordering between the two, swap it with the smaller one in order to maintain the min-heap ordering.
+
+### Tries (Prefix Trees)
+A trie is an n-ary tree in which characters are stored at each node. The * symbol represents the end of the path. A node in a trie can have anywhere from 1  to ALPHABET_SIZE + 1 children.
 
 ### Graphs
 > A node-based data structure
