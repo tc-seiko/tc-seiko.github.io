@@ -76,7 +76,7 @@ To avoid this problem, the startup world has handled this with something called 
 
 That's just a crude concept example to give you a sense of what liquidation preference means. If you decide to go the liquidation preference route, make sure you agree on two things: 
 
-1. What multiple of their contribution the founder gets, with 1x being typical and 2x being the upper limit I would recommend before things start to feel unfair;
+1. What multiple of their contribution Founder 1 gets, with 100% (1x) of their contribution being typical and 200% (2x) being the upper limit I would recommend before things start to feel unfair to Founder 2;
 
 2. What the profit split is (e.g., 100%/0%) until the liquidation preference is extinguished and the normal split (e.g. 50%/50%) takes over.
 
@@ -88,7 +88,7 @@ Typically for a two-person business, it would be unusual to allow one of the co-
 
 If both founders think they're done with the business, it's easy: just split the assets of the company at the profit split 50%/50% (subject to any liquidation preference if someone put in more cash than the other). 
 
-But if only one person wants out, you should decide how you want to handle it.
+But if only one person wants out, you should decide how you want to handle it. If the company or the other founder has the cash, the exiting founder can just be bought out at a fair valuation. If there is not enough cash on hand, the situation is a little tricky, but one common approach is to convert the exiting founder's equity into debt or a debt-like security that is paid back over time.
 
 In summary, decisions on **economics** and **control** are important to make early on in the company's life. When the time is right,[^2] a lawyer can assist with more detailed decision-making and you will form a legal entity. Until then, having made these key decisions will give you and your partner peace of mind that there is a framework for the **economics** and **control** of the company.
 
