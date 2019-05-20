@@ -168,7 +168,7 @@ A binary search tree is good when we want a data structure that maintains order 
 2. Inspect the value at the node.
 3. If we've found the value, great.
 4. If the value we're looking for is less than the current node, search for it in the left subtree.
-5. If th evalue we're looking for is greater than the current node, search in the right subtree.
+5. If the value we're looking for is greater than the current node, search in the right subtree.
 
 *Recursion* is very useful here.
 
@@ -193,9 +193,9 @@ This is more complex.
 
 1. If the node being deleted has no children, just delete it.
 2. If the node being deleted has 1 child, delete it and plug the child into the spot where the deleted node was.
-3. If the node has two children, replace the deleted node with the **successor node**. The successor node is the descendant node whose value is the lease of all values that are greater than the deleted node, i.e., the "next number up" from the deleted value.
+3. If the node has two children, replace the deleted node with the **successor node**. The successor node is the descendant node whose value is the least of all values that are greater than the deleted node, i.e., the "next number up" from the deleted value.
   - To get the successor node, visit the right child of the deleted node and then keep visiting the left child of each subsequent child until there are no more left children. The bottom value is the successor node.
-4. **Edge case**: If the successor node has a right child, take that right child and turn it into the *left child of the parent of the successor node*.  
+4. **Edge case**: If the successor node has a right child, take that right child and turn it into the *left child of the former parent of the successor node*.  
 
 Deletion is just search plus a few extra steps, so best case / average case is $$O(logN)$$. Contrast with an ordered array, for which deletion is $$O(N)$$. 
 
@@ -238,7 +238,33 @@ A trie is an n-ary tree in which characters are stored at each node. The * symbo
 ### Graphs
 > A node-based data structure
 
-Coming soon.
+In graph jargon, each node is called a *vertex* and each line is called an *edge*. Vertices that are connected by an edge are said to be *adjacent* to each other. Graphs can be directed (one-way) or undirected (two-way). A *connected graph* is where there are no isolated subgraphs. I.e., there is some path between every vertex. An *acyclic graph* is a graph without cycles.
+
+Graphs can be implemented in a number of ways, but one of the simplest ways is using a hash table. The key is the node, the value is a list of the other nodes to which it is connected. You could also do an adjacency list or adjacency matrix. 
+
+**Breadth first** should be used if we want to find the shortest path between two nodes.
+**Depth first** should be used if we want to visit every node in the graph. Both would work find here, but DFS would be simpler.
+
+#### Breadth-First Search
+This uses a queue. Common pitfall is that it is *not recursive*. 
+
+At the beginning the queue contains only our starting vertex. Then:
+1. Visit each vertex adjacent to the current vertex. If it has not yet been visited, mark it as visited, and add it to the queue (but do not make it the current vertex!).
+2. If the current vertex has no unvisited vertices adjacent to it, remove the next vertex from the queue and make it the current vertex.
+3. If there are no more unvisited vertices adjacent to the current vertex, and there are no more vertices in the queue, the algorithm is complete.
+
+There are V removals from the queue, and 2E visiting steps (since each edge is connected to 2 vertices). So a BFS has efficiency of $$O(V + E)$$.
+
+#### Depth-First Search
+*Recursion* is useful here.
+
+In DFS, we visit a node `a` and the iterate through each of `a`'s neighbors. When visiting a node `b` that is a neighbor of `a`, we visit all of `b`'s neighbhors before going on to `a`'s other neighbhors. 
+
+Pre-order and other forms of tree traveral are a form of DFS, but the key difference is that when implementing this for a graph, we must check if the node has been visited to avoid an infinite loop.
+
+#### Dijkstra's Algorithm
+
+This is one way of solving the "shorted path problem" when you have a weighted graph. Think, how to hack together the cheapest flights from a starting point (like, Atlanta) by flying through different airports.
 
 ## Algorithms
 
