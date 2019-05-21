@@ -264,7 +264,7 @@ Pre-order and other forms of tree traveral are a form of DFS, but the key differ
 
 #### Dijkstra's Algorithm
 
-This is one way of solving the "shorted path problem" when you have a weighted graph. Think, how to hack together the cheapest flights from a starting point (like, Atlanta) by flying through different airports.
+This is one way of solving the "shortest path problem" when you have a weighted graph. Think, how to hack together the cheapest flights from a starting point (like, Atlanta) by flying through different airports.
 
 ## Algorithms
 
