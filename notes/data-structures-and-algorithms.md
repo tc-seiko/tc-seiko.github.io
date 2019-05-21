@@ -396,7 +396,7 @@ So, whether you use Selection Sort or Insertion Sort, which are both technically
 
 ### Quicksort
 
-In many language, the sorting algo performed under the hood is Quicksort. In average case, it's $$O(NlogN)$$. In worst case, it's $$O(N^2)$$.
+In many languages, the sorting algo performed under the hood is Quicksort. In average case, it's $$O(NlogN)$$. In worst case, it's $$O(N^2)$$.
 
 #### Partitioning
 
@@ -430,6 +430,22 @@ A partition therefore runs in $$O(N)$$ time.
 In the average case, the pivot gets moved to the center. This halves N with every iteration. Because we're halving the N with every iteration of the partition, this is a lot like binary search, which is in $$O(logN)$$ time. And since there are N pivots, quicksort runs, in the average case, at $$O(NlogN)$$ time.
 
 In the worst case, the pivot doesn't get swapped into the center but stays to the one side. This makes worst case quicksort operate at $$O(N^2)$$ time. 
+
+### Merge Sort
+
+*Recursion* is useful here.
+
+Divide the array in half, sort each of those halves, then merge them back together. Each of the halves has the same sorting algorithm applied to it. Eventually you are just merging just two single-element arrays. 
+
+The "merge" function does the heavy lifting. To merge two halves, you compare the left-most element on the left half with the left-most element on the right and store the lesser one in the left-most spot in the new, merged array. Then you move one spot to the right on the array half that you just copied from and do it again. I.e., you compare the earliest unmerged items from both lists and add the smaller one. 
+
+This article on [merge sort](https://www.interviewcake.com/concept/python/merge-sort) explains it better.
+
+Time complexity is $$O(NlogN)$$ because each comparison step takes N steps, and there are logN splits since you are splitting in half.
+
+Space complexity is $$O(N)$$ if you do it efficiently, but $$O(NlogN)$$ if you do it less thoughtfully.
+
+### Radix Sort
 
 ### Quickselect
 
