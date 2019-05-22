@@ -43,13 +43,13 @@ $$
 
 If you add up that series, you get N. And if the *total copying* steps took N time, and if there were N inserts, you divide N / N and get $$O(1)$$. So the copying steps, *on average* are $$O(1)$$. 
 
-**What I don't understand**, though, is that it's highly unlikely that an array will be sized exactly to N. Rather, N items in an array will end up in an array of size N + X because the array kept doubling as you inserted $$1 \dots N$$. So the most recent copy was X / 2, which is somewhere between N / 2 and N. In the *worst case*, N is equal to $$\frac{X}{2} + 1$$, which means the the most recent copy was $$N - 1$$. So the total number of copying steps took:
+~~**What I don't understand**, though,~~ [*I get it now -- made a careless algebra error!*], is that it's highly unlikely that an array will be sized exactly to N. Rather, N items in an array will end up in an array of size N + X because the array kept doubling as you inserted $$1 \dots N$$. So the most recent copy was X / 2, which is somewhere between N / 2 and N. In the *worst case*, N is equal to $$\frac{X}{2} + 1$$, which means the the most recent copy was $$N - 1$$. So the total number of copying steps took:
 
 $$
 N - 1 + \frac{N - 1}{2} + \frac{N - 1}{4} + \dots + 2 + 1
 $$
 
-If you add up *this* series, you get $$(N - 1) + (N - 1) = 2N - 2$$. If there are N inserts and you divide $$\frac{2N - 2}{N}$$, you get $$N$$ minus a constant. So, isn't the average time for the copying steps $$O(N)$$ in the worst case, *not* $$O(1)$$?  
+If you add up *this* series, you get $$(N - 1) + (N - 1) = 2N - 2$$. If there are N inserts and you divide $$\frac{2N - 2}{N}$$, ~~you get N minus a constant. So, isn't the average time for the copying steps O(N) in the worst case, *not* O(1)?~~ *you get $$O(1)$$*. 
 
 #### Search
 - *All Cases*. Go element-by-element until you find what you're looking for. Time complexity depends on where the element is, but because on average this takes $$\frac{N}{2}$$ steps, it is $$O(N)$$ complexity.
