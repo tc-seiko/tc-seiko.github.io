@@ -62,8 +62,79 @@ No notes.
 ## Make Lists (8)
 No notes.
 
-<!-- 
+<!--
+Rest of Section 2 TK
+-->
+
 # Section 3 - Turning Connections into Compatriots
+
+## Health, Wealth and Children (18)
+- The only way to get anyone to do anything is to recognize their importance and thereby make them feel important. 
+- Every person's deepest lifelong desire is to be significant and to be recognized.
+- There are three things in this world that engender deep emotional bonds between people: **health, wealth, and children**. 
+- There are a lot of things we can do for other people: give good advice, help them wash their car, or help them move. But health, wealth, and children affect us in ways other acts of kindness do not. When you help someone through a health issue, positively impact someone’s personal wealth, or take a sincere interest in their children, you engender life-bonding loyalty.
+- Where do you start? You start with the philosophy, the worldview, that every human is an opportunity to help and be helped. The rest—whether it means helping with someone’s health, wealth, children, or any other unsatisfied desires—follows from that.
+
+## Social Arbitrage (19)
+- When someone mentions a problem, try to think of solutions.
+> For example, if I’m in a conversation and the other person mentions they’re looking to buy a house in Los Angeles, the first thing I think is “How can my network help?” And there’s no time to linger. Midconversation, I’ll pull out my cell phone and locate someone who can help my companion buy a home. As I’m dialing, I might say something like, “You need to meet this Realtor I know named Betty. No one knows the Los Angeles area better. Here’s her phone number, but hold on—” Now Betty is on the line. “Hi, Betty, it’s so nice to hear your voice. It has been too long. Listen, I’m standing here with a friend who is in need of your wisdom. I just gave him your number and wanted to tell you personally he’d be calling.” The connection is made, the work is done, and whatever happens next, both parties are pleased by my efforts on their behalf. This is social arbitrage at work. And the first key is, don’t wait to be asked. Just do it.
+- Power comes from being indispensable. Indispensability comes from being a switchboard, parceling out as much information, contacts, and goodwill to as many people in as many different worlds as possible.
+- Although "relational" resources like the above example are one way of doing this, another way is using knowledge. 
+- Knowledge is one of the most valuable currencies in social arbitrage. Knowledge is free—it can be found in books, in articles, on the Internet, pretty much everywhere, and it’s precious to everyone.
+- People pay more attention when they feel they’re receiving intel that’s specifically tailored for them; the more granularly you can target, the better.
+- Example: Someone interviewed key players at his firm, creating a white paper to help new employees “onboard” themselves.
+  - <i class="fa fa-road"></i> When you work somewhere, write down all the tips and tricks of working there and distribute this kind of on-boarding white paper after you've been there a year or so.
+- Book summaries and reviews, events calendars, and op-eds are all easy ways to package and share knowledge.
+- <i class="fa fa-road"></i> Make social arbitrage a habit. At least once a day, when someone is talking, hear a "problem". And I should think "need to find a solution". If I don't have personal advice, I should ask how my friends can help. Get on the phone and ask if they have advice, or if they used any books or articles to help them through the process. Pass it on.
+- Can also search on Amazon for a book and send them a link or even the book!
+
+## Pinging -- All the Time (20)
+- 80 percent of building and maintaining relationships is just staying in touch. Keith calls it “pinging.” It’s a quick, casual greeting, and it can be done in any number of creative ways.
+
+- *Establishing new relationships step 1*. People you’re contacting to create a new relationship need to see or hear your name in at least three modes of communication—by, say, an e-mail, a phone call, and a face-to-face encounter—before there is substantive recognition.
+- *Establishing new relationships step 2*. Once you've got that early recognition, nurture a developing relationship with a phone call or email once a month.
+- *Establishing new relationships step 3*. Transforming a contact into a *friend* requires two face-to-face meetings outside the office.
+- There are three levels of "touch" that bucket how frequently to ping someone.
+
+#### High Touch
+- Once a *month* pings. 
+- These are one of two kinds of people: (1) new relationships that need to be nurtured (see above re establishing new relationships) or (2) a mature relationship you're actively involved in, e.g., trying to convert them into a new business associate.
+- Add these people to your cell phone favorites to make pinging easier. 
+- When you have a free moment in a cab, go down the list and call or text.
+- *Daily or weekly* monitor their social media to keep up with their news and find opportunities to be useful. 
+
+#### Medium Touch
+- Once a *quarter* pings.
+- These are "touch base" people. 
+- These are also two kinds of people: (1) casual acquaintances or (2) people whom I already know well. 
+- Quarterly call or email them.
+- *Weekly or monthly* Monitor their social media to keep up with their news and find opportunities to be useful. 
+- Include in occasional mass e-mails about my life or business. 
+- Annual holiday card or birthday call.
+- Social media pings (e.g. status updates, retweets, comments) are good for ongoing relationship maintenance, but they don't replace the need for one-to-one pinging with the people in your highest-priority network: the people connected to your current goals.
+
+#### Low Touch
+- Once a *year* pings.
+- People I don't know well and people who because of time and circumstance, I can't devote any significant energy to pinging. 
+- *Quarterly* monitor their social media to keep up with their news and find opportunities to be useful. 
+- Strictly acquaintances. 
+- Reach them, in some direct way, once a year. 
+- Surprisingly, because you don't know them all that well, when you do reach out with a card or email, the reactoin is wonderful. They are delighted and their curiosity is piqued when someone they don't know all that well sends them a note.
+  - Emery does this!
+
+#### How to Ping
+- Constantly look to maximize relevancy and intimacy.
+- "I just called to say I care" for closer contacts. Basically conveying that it's been too long since we spoke and I wanted you to know I miss you and you're important to me.
+- For career or business pings, favor the value-add ping. 
+- Recognize when someone gets a promotion or the company he or she runs has a good financial quarter, or he or she has a child. 
+  - Remember, health wealth and children!
+- Take a photo with someone when you meet them and then you can send them the photo the next time you ping. 
+- Birthdays: everyone cares about their birthday even if they pretend they don't! 
+  - Consider wishing them right at midnight, if it would be appropriate!
+
+
+<!-- 
+## Find Anchor Tenants and Feed Them (21)
 
 # Section 4 - Connecting in the Digital Age
 
