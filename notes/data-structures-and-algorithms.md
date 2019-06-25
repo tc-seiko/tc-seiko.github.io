@@ -10,6 +10,7 @@ This is a summary of common data structures and algorithms. It's intended to be 
 
 My implementation of these data structures and algorithms can be found at my [github common algorithms](https://github.com/hkhanna/common-algorithms) repository.
 
+A more detailed set of things to know can be found at this [TripleByte Quip](/files/TripleByte_Quip.pdf).
 ## Data Structures
 
 ### Arrays
