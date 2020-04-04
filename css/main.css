@@ -787,3 +787,8 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+.navbar {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
