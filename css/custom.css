@@ -102,3 +102,8 @@
 .font-14 {
     font-size: 14px;
 }
+
+.navbar-custom {
+    padding-right: 20px;
+    padding-left: 20px;
+}
