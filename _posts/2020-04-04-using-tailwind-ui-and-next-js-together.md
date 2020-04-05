@@ -3,6 +3,8 @@ title: Using Tailwind UI and Next.js Together
 subtitle: Installation and Setup
 layout: post
 date: 2020-04-04T12:00:00-04:00
+image: /img/next-js-tailwind-css.png
+share-img: https://khanna.cc/img/next-js-tailwind-css.png
 tags: [reactjs, nextjs, tailwindcss, tailwindui, javascript]
 ---
 
