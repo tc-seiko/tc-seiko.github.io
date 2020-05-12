@@ -23,7 +23,7 @@ description: About Languages and Code
 
 # List of links in the navigation bar
 navbar-links:
-  Bio: "attorney"
+  Bio: "introduction"
   Blog: "blog"
   Notes: "notes"
 
@@ -72,11 +72,11 @@ social-network-links:
   rss: false
 #  email: "someone@example.com"
 #  facebook: daattali
-  github: hkhanna
-  twitter: hkhanna
+  # github: hkhanna
+  # twitter: hkhanna
 #  reddit: yourname
 #  google-plus: +DeanAttali
-  linkedin: harry-khanna
+  # linkedin: harry-khanna
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
