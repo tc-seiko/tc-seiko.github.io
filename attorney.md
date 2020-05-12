@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Tha-Phuong Vo
-subtitle: 'Languages & Code'
-head-title: "Tha-Phuong Vo - Languages & Code"
+subtitle: 'Languages & Coding'
+head-title: "Tha-Phuong Vo - Languages & Coding"
 image: /img/me.jpg
 css: "../css/custom.css"
 ---
 
 I am an experienced corporate attorney, admitted to practice in New York and California.
 
-Interested in working together? You can get in touch by emailing me at `harry` at `khanna.law`.
+Interested in working together? You can get in touch by emailing me at `tom_vo` at `outlook.com`.
 
 ----
 
