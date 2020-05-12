@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Harry Khanna
-subtitle: 'Attorney at Law'
-head-title: "Harry Khanna - Attorney at Law"
+title: Tha-Phuong Vo
+subtitle: 'Languages & Code'
+head-title: "Tha-Phuong Vo - Languages & Code"
 image: /img/me.jpg
 css: "../css/custom.css"
 ---
