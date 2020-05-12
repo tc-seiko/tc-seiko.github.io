@@ -1,8 +1,8 @@
 ---
-title: 'read, _read, and readable: Readable Streams in Node.js'
-date: 2015-03-21T13:29:55-04:00
+title: 'Learning Flutter: iOS and Android Development in Dart'
+date: 2020-05-12T13:29:55-04:00
 layout: post
-tags: ["javascript", "nodejs"]
+tags: ["flutter", "dart"]
 ---
 One aspect of Node I had trouble wrapping my head around was how  readable streams work in the new streams2 API. After reading the [API documentation](https://nodejs.org/api/stream.html), [two](http://amzn.to/1MIFZn4) [different](http://amzn.to/1GQPdM0) books on Node, and the [stream-handbook](https://github.com/substack/stream-handbook), along with exhaustive Googling around, I still just didn’t get it. 
 
