@@ -1,5 +1,6 @@
 ---
-title: 'Learning Flutter: iOS and Android Development in Dart'
+title: 'Learning Flutter'
+subtitle: 'iOS and Android Development with Dart'
 date: 2020-05-12T13:29:55-04:00
 layout: post
 tags: ["flutter", "dart"]
