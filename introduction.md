@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Tha-Phuong Vo
-subtitle: 'Languages & Coding'
-head-title: "Tha-Phuong Vo - Languages & Coding"
+subtitle: 'Languages and Coding'
+head-title: "Tha-Phuong Vo - Languages and Coding"
 image: /img/me.jpg
 css: "../css/custom.css"
 ---
@@ -59,12 +59,6 @@ If you have questions or want to know more, you can get in touch by emailing me 
 
 ----
 
-#### Web Development Positions
-- Social Media / Admin: SLI (University of Freiburg), 2014-2016
-- Web Developer: freelance, 2006-2013
-
-----
-
 #### Languages
 - German: native
 - Vietnamese: native
@@ -78,8 +72,8 @@ If you have questions or want to know more, you can get in touch by emailing me 
 ----
 
 #### Education
-- *Study in Kyoto* Program: Ritsumeikan University, 2016-2017
-- *Chinese Studies*: University of Freiburg, 2013-2016
-- *Start-Up 101*: Verte Business School, 2012
-- *Computer Science*: University of Freiburg, 2001-2003
+- Study in Kyoto Program: Ritsumeikan University, 2016-2017
+- Sinology: University of Freiburg, 2013-2016
+- Start-Up 101: Verte Business School, 2012
+- Computer Science: University of Freiburg, 2001-2003
 
