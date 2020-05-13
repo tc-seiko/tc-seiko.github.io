@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tha-Phuong Vo
-subtitle: 'Languages and Coding'
+subtitle: 'Languages and Codeing'
 head-title: "Tha-Phuong Vo - Languages and Coding"
 image: /img/me.jpg
 css: "../css/custom.css"
@@ -10,9 +10,9 @@ A short introduction:
 
 My main interests and expertise are in the areas of Languages & Culture and Programming & Information Technology.
 
-**Programming**: I first started programming in Turbo Pascal and Delphi at high school in 1996, and have since been part of  web development since the first PHP CMS in 2001 (PHP-Nuke). My new current areas of interest are App Development with Flutter/Dart and JavaScript Frameworks (React).  
+**Programming**: I first started programming in Turbo Pascal and Delphi at high school in 1996, and have been part of  web development since the first PHP CMS in 2001 (PHP-Nuke). My current areas of interest are App Development with Flutter/Dart, JavaScript Frameworks (React), and the Lisp/Scheme descendant Racket.  
 
-**Languages & Culture**: I have over 15 years of intercultural work experience in four languages in Europe and Asia (Japan, Vietnam). As a coordinator for the SLI (University of Freiburg), I organized and oversaw the programs for the International Language Courses with more than 1,000 participants from over 58 countries each year. 
+**Languages & Culture**: I have over 15 years of intercultural work experience in four languages in Europe and Asia (Japan, Vietnam). As a coordinator for the SLI (University of Freiburg), I organized and oversaw the programs for the International Language Courses with more than 1,000 participants from over 58 countries per year. 
 
 Below you can see a selected list of organizations I have worked with and my areas of expertise and skills. 
 
