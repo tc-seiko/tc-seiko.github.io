@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Tha-Phuong Vo
-subtitle: 'Languages and Coding'
-head-title: "Tha-Phuong Vo - Languages and Coding"
+subtitle: 'Languages and Code'
+head-title: "Tha-Phuong Vo - Languages and Code"
 image: /img/me.jpg
 css: "../css/custom.css"
 ---
@@ -10,7 +10,7 @@ A short introduction:
 
 My main interests and expertise are in the areas of Languages & Culture and Programming & Information Technology.
 
-**Programming**: I started programming in Turbo Pascal and Delphi with the computer course at high school, and have been part of  web development since the first PHP CMS in 2001 (PHP-Nuke). My current areas of interest are App Development with Flutter/Dart, JavaScript Frameworks (React), and the Lisp/Scheme descendant Racket.  
+**Programming**: I started programming in Turbo Pascal and Delphi with the computer course at high school, and have been part of  web development since the first PHP CMS in the early 2000s (PHP-Nuke). My current areas of interest are App Development with Flutter/Dart, JavaScript Frameworks (React), and the Lisp/Scheme descendant Racket.  
 
 **Languages & Culture**: I have over 15 years of intercultural work experience in four languages in Europe and Asia (Japan, Vietnam). As a coordinator for the SLI (University of Freiburg), I organized and oversaw the programs for the International Language Courses with more than 1,000 participants from over 58 countries per year. 
 
@@ -28,7 +28,7 @@ If you have questions or want to know more, you can get in touch by emailing me 
 - Volkshochschule Freiburg
 - Japan Federation of Bar Associations
 - Ritsumeikan University
-- International Winter and Summer Courses Freiburg (Social Media Manager)
+- International Winter and Summer Courses Freiburg (Social Media)
 
 -----
 
@@ -38,7 +38,7 @@ If you have questions or want to know more, you can get in touch by emailing me 
 
 ----
 
-#### Technologies
+#### Programming Languages
 - Java
 - HTML/CSS
 - JavaScript
@@ -46,7 +46,6 @@ If you have questions or want to know more, you can get in touch by emailing me 
 - Python
 - Flutter (Dart)
 - Scheme/Racket
-- Turbo Pascal / Delphi
 
 ----
 
@@ -55,7 +54,7 @@ If you have questions or want to know more, you can get in touch by emailing me 
 - Java: Netbeans
 - App Development: Android SDK
 - Photo Editing: Adobe Lightroom and Photoshop 
-- Video Editing: Vegas Video
+- Video Editing: Vegas Video / Adobe Premiere
 
 ----
 
