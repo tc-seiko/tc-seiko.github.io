@@ -6,6 +6,11 @@
 #            site.social-network-links.<key>
 #   icon: Specify a valid fontawesome icon class
 
+koken:
+  name: "Photography"
+  baseURL: "https://www.tominkyoto.com/"
+  icon: "fa-image"
+
 facebook:
   name: "Facebook"
   baseURL: "https://www.facebook.com/"
