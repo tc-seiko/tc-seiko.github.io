@@ -58,15 +58,23 @@ If you have questions or want to know more, you can get in touch by emailing me 
 
 ----
 
+#### Hobbies
+- Travelling and Foreign Languages
+- Photography
+- Writing
+- Public Speaking (joined Toastmasters International in 2009)
+
+----
+
 #### Languages
 - German: native
 - Vietnamese: native
-- English: C1 
+- English: full professional proficiency
 - Japanese: C1
-- French: B1
+- French: B2
 - Chinese (Mandarin): B1
 - Esperanto: conversational
-- Lating: German Latinum certificate
+- Lating: Advanced Proficiency Certifcate (Latinum)
 
 ----
 
